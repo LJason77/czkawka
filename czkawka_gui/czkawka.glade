@@ -83,7 +83,7 @@ This program is free to use and will always be.
                     <property name="can_focus">False</property>
                     <child>
                       <object class="GtkButton" id="button_repository">
-                        <property name="label" translatable="yes">Repository</property>
+                        <property name="label" translatable="yes">仓库</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
@@ -96,7 +96,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkButton" id="button_instruction">
-                        <property name="label" translatable="yes">Instruction</property>
+                        <property name="label" translatable="yes">说明</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
@@ -116,7 +116,7 @@ This program is free to use and will always be.
                 </child>
                 <child>
                   <object class="GtkButton" id="button_donation">
-                    <property name="label" translatable="yes">Donation</property>
+                    <property name="label" translatable="yes">捐赠</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
@@ -158,7 +158,7 @@ This program is free to use and will always be.
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkButton" id="buttons_popover_right_click_open_file">
-            <property name="label" translatable="yes">Open File</property>
+            <property name="label" translatable="yes">打开文件</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -171,7 +171,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_right_click_open_folder">
-            <property name="label" translatable="yes">Open Folder</property>
+            <property name="label" translatable="yes">打开目录</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -194,7 +194,7 @@ This program is free to use and will always be.
         <property name="orientation">vertical</property>
         <child>
           <object class="GtkButton" id="buttons_popover_select_custom">
-            <property name="label" translatable="yes">Select custom</property>
+            <property name="label" translatable="yes">自定义选择</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -207,7 +207,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_unselect_custom">
-            <property name="label" translatable="yes">Unselect custom</property>
+            <property name="label" translatable="yes">自定义取消</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -231,7 +231,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_all_images_except_biggest">
-            <property name="label" translatable="yes">Select all except biggest</property>
+            <property name="label" translatable="yes">选择除最大以外的全部</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -244,7 +244,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_all_images_except_smallest">
-            <property name="label" translatable="yes">Select all except smallest</property>
+            <property name="label" translatable="yes">选择除最小以外的全部</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -268,7 +268,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_all_except_oldest">
-            <property name="label" translatable="yes">Select all except oldest</property>
+            <property name="label" translatable="yes">选择除最旧以外的全部</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -281,7 +281,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_all_except_newest">
-            <property name="label" translatable="yes">Select all except newest</property>
+            <property name="label" translatable="yes">选择除最新以外的全部</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -294,7 +294,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_one_oldest">
-            <property name="label" translatable="yes">Select one oldest</property>
+            <property name="label" translatable="yes">选择一个最旧的</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -307,7 +307,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_one_newest">
-            <property name="label" translatable="yes">Select one newest</property>
+            <property name="label" translatable="yes">选择一个最新的</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -331,7 +331,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_reverse">
-            <property name="label" translatable="yes">Reverse Selection</property>
+            <property name="label" translatable="yes">反向选择</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -355,7 +355,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_select_all">
-            <property name="label" translatable="yes">Select All</property>
+            <property name="label" translatable="yes">选择全部</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -368,7 +368,7 @@ This program is free to use and will always be.
         </child>
         <child>
           <object class="GtkButton" id="buttons_popover_unselect_all">
-            <property name="label" translatable="yes">Unselect All</property>
+            <property name="label" translatable="yes">取消全部选择</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -446,7 +446,7 @@ This program is free to use and will always be.
                                       <object class="GtkLabel">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="label" translatable="yes">Add </property>
+                                        <property name="label" translatable="yes">添加</property>
                                       </object>
                                       <packing>
                                         <property name="expand">False</property>
@@ -497,7 +497,7 @@ This program is free to use and will always be.
                                       <object class="GtkLabel">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="label" translatable="yes">Remove  </property>
+                                        <property name="label" translatable="yes">移除</property>
                                       </object>
                                       <packing>
                                         <property name="expand">False</property>
@@ -548,7 +548,7 @@ This program is free to use and will always be.
                                       <object class="GtkLabel">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="label" translatable="yes">Manual Add</property>
+                                        <property name="label" translatable="yes">手动添加</property>
                                       </object>
                                       <packing>
                                         <property name="expand">False</property>
@@ -591,7 +591,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkCheckButton" id="check_button_recursive">
-                        <property name="label" translatable="yes">Recursive</property>
+                        <property name="label" translatable="yes">递归</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
@@ -613,7 +613,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Included Directories</property>
+                    <property name="label" translatable="yes">包括目录</property>
                   </object>
                   <packing>
                     <property name="tab_fill">False</property>
@@ -665,7 +665,7 @@ This program is free to use and will always be.
                                       <object class="GtkLabel">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="label" translatable="yes">Add </property>
+                                        <property name="label" translatable="yes">添加</property>
                                       </object>
                                       <packing>
                                         <property name="expand">False</property>
@@ -716,7 +716,7 @@ This program is free to use and will always be.
                                       <object class="GtkLabel">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="label" translatable="yes">Remove  </property>
+                                        <property name="label" translatable="yes">移除</property>
                                       </object>
                                       <packing>
                                         <property name="expand">False</property>
@@ -767,7 +767,7 @@ This program is free to use and will always be.
                                       <object class="GtkLabel">
                                         <property name="visible">True</property>
                                         <property name="can_focus">False</property>
-                                        <property name="label" translatable="yes">Manual Add</property>
+                                        <property name="label" translatable="yes">手动添加</property>
                                       </object>
                                       <packing>
                                         <property name="expand">False</property>
@@ -817,7 +817,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Excluded Directories</property>
+                    <property name="label" translatable="yes">排除目录</property>
                   </object>
                   <packing>
                     <property name="position">1</property>
@@ -837,7 +837,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Excluded items must contains * wildcard and should be separated by commas.</property>
+                            <property name="label" translatable="yes">排除项目必须包含 * 通配符，并以逗号分隔。</property>
                             <attributes>
                               <attribute name="scale" value="1"/>
                             </attributes>
@@ -858,7 +858,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">This is slower than Excluded Directories, so use it carefully.</property>
+                            <property name="label" translatable="yes">这比排除目录慢，所以要小心使用。</property>
                             <attributes>
                               <attribute name="scale" value="1"/>
                             </attributes>
@@ -880,7 +880,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Excluded items</property>
+                            <property name="label" translatable="yes">排除项目</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -916,7 +916,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Excluded Items</property>
+                    <property name="label" translatable="yes">排除项目</property>
                   </object>
                   <packing>
                     <property name="position">2</property>
@@ -936,7 +936,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Allowed extensions must be separated by commas(by default all are available)</property>
+                            <property name="label" translatable="yes">允许的后缀必须用逗号隔开(默认情况下全部的后缀都是激活的)</property>
                             <attributes>
                               <attribute name="scale" value="1"/>
                             </attributes>
@@ -957,7 +957,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Macros IMAGE, VIDEO, MUSIC, TEXT are available</property>
+                            <property name="label" translatable="yes">可用的关键字包括：IMAGE, VIDEO, MUSIC, TEXT</property>
                             <attributes>
                               <attribute name="scale" value="1"/>
                             </attributes>
@@ -978,7 +978,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Usage example  ".exe, IMAGE, VIDEO, .rar, 7z"</property>
+                            <property name="label" translatable="yes">示例：".exe, IMAGE, VIDEO, .rar, 7z"</property>
                             <attributes>
                               <attribute name="scale" value="1"/>
                             </attributes>
@@ -1000,7 +1000,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Allowed Extensions</property>
+                            <property name="label" translatable="yes">允许后缀</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -1035,7 +1035,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Allowed Extensions</property>
+                    <property name="label" translatable="yes">允许的后缀</property>
                   </object>
                   <packing>
                     <property name="position">3</property>
@@ -1053,7 +1053,7 @@ This program is free to use and will always be.
                     <property name="column_homogeneous">True</property>
                     <child>
                       <object class="GtkCheckButton" id="check_button_settings_save_at_exit">
-                        <property name="label" translatable="yes">Save configuration at exit</property>
+                        <property name="label" translatable="yes">退出时保存配置</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
@@ -1067,7 +1067,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkButton" id="button_settings_save_configuration">
-                        <property name="label" translatable="yes">Save current configuration</property>
+                        <property name="label" translatable="yes">保存当前配置</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
@@ -1079,7 +1079,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkButton" id="button_settings_load_configuration">
-                        <property name="label" translatable="yes">Load configuration</property>
+                        <property name="label" translatable="yes">加载配置</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
@@ -1091,7 +1091,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkButton" id="button_settings_reset_configuration">
-                        <property name="label" translatable="yes">Reset configuration</property>
+                        <property name="label" translatable="yes">重置配置</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
@@ -1103,7 +1103,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkCheckButton" id="check_button_settings_load_at_start">
-                        <property name="label" translatable="yes">Load configuration at start</property>
+                        <property name="label" translatable="yes">启动时加载配置</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
@@ -1117,7 +1117,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkCheckButton" id="check_button_settings_confirm_deletion">
-                        <property name="label" translatable="yes">Show confirm dialog when deleting</property>
+                        <property name="label" translatable="yes">删除时显示确认对话框</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
@@ -1132,7 +1132,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkCheckButton" id="check_button_settings_show_preview_similar_images">
-                        <property name="label" translatable="yes">Show image preview</property>
+                        <property name="label" translatable="yes">显示图像预览</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
@@ -1146,7 +1146,7 @@ This program is free to use and will always be.
                     </child>
                     <child>
                       <object class="GtkCheckButton" id="check_button_settings_show_text_view">
-                        <property name="label" translatable="yes">Show bottom text panel</property>
+                        <property name="label" translatable="yes">显示底部文本面板</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
@@ -1176,7 +1176,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Settings</property>
+                    <property name="label" translatable="yes">设置</property>
                   </object>
                   <packing>
                     <property name="position">4</property>
@@ -1209,7 +1209,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Minimal file size(in bytes)</property>
+                            <property name="label" translatable="yes">最小的文件大小(单位：字节)</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -1245,7 +1245,7 @@ This program is free to use and will always be.
                         <property name="can_focus">False</property>
                         <child>
                           <object class="GtkRadioButton" id="radio_button_duplicates_name">
-                            <property name="label" translatable="yes">Name(very fast)</property>
+                            <property name="label" translatable="yes">名字(非常快)</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1260,7 +1260,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkRadioButton" id="radio_button_duplicates_size">
-                            <property name="label" translatable="yes">Size(very fast)</property>
+                            <property name="label" translatable="yes">大小(非常快)</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1275,7 +1275,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkRadioButton" id="radio_button_duplicates_hashmb">
-                            <property name="label" translatable="yes">HashMb(fast)</property>
+                            <property name="label" translatable="yes">哈希表(快)</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1290,7 +1290,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkRadioButton" id="radio_button_duplicates_hash">
-                            <property name="label" translatable="yes">Hash(slow but accurate)</property>
+                            <property name="label" translatable="yes">哈希(慢，精准)</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1318,7 +1318,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Hash type:</property>
+                            <property name="label" translatable="yes">哈希类型：</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -1401,7 +1401,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Duplicates files</property>
+                    <property name="label" translatable="yes">重复文件</property>
                   </object>
                   <packing>
                     <property name="tab_fill">False</property>
@@ -1424,7 +1424,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Empty Directories</property>
+                    <property name="label" translatable="yes">空目录</property>
                   </object>
                   <packing>
                     <property name="position">1</property>
@@ -1445,7 +1445,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Number of showed files</property>
+                            <property name="label" translatable="yes">显示的文件数量</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -1499,7 +1499,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Big Files</property>
+                    <property name="label" translatable="yes">大文件</property>
                   </object>
                   <packing>
                     <property name="position">2</property>
@@ -1523,7 +1523,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Empty Files</property>
+                    <property name="label" translatable="yes">空文件</property>
                   </object>
                   <packing>
                     <property name="position">3</property>
@@ -1547,7 +1547,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Temporary Files</property>
+                    <property name="label" translatable="yes">临时文件</property>
                   </object>
                   <packing>
                     <property name="position">4</property>
@@ -1572,7 +1572,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Minimal file size(in bytes)</property>
+                                <property name="label" translatable="yes">最小的文件大小(单位：字节)</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -1610,7 +1610,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Similarity </property>
+                                <property name="label" translatable="yes">相似性：</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -1620,7 +1620,7 @@ This program is free to use and will always be.
                             </child>
                             <child>
                               <object class="GtkRadioButton" id="radio_button_similar_images_minimal">
-                                <property name="label" translatable="yes">Minimal</property>
+                                <property name="label" translatable="yes">最小</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1635,7 +1635,7 @@ This program is free to use and will always be.
                             </child>
                             <child>
                               <object class="GtkRadioButton" id="radio_button_similar_images_very_small">
-                                <property name="label" translatable="yes">Very Small</property>
+                                <property name="label" translatable="yes">非常小</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1650,7 +1650,7 @@ This program is free to use and will always be.
                             </child>
                             <child>
                               <object class="GtkRadioButton" id="radio_button_similar_images_small">
-                                <property name="label" translatable="yes">Small</property>
+                                <property name="label" translatable="yes">小</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1665,7 +1665,7 @@ This program is free to use and will always be.
                             </child>
                             <child>
                               <object class="GtkRadioButton" id="radio_button_similar_images_medium">
-                                <property name="label" translatable="yes">Medium</property>
+                                <property name="label" translatable="yes">中</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1680,7 +1680,7 @@ This program is free to use and will always be.
                             </child>
                             <child>
                               <object class="GtkRadioButton" id="radio_button_similar_images_high">
-                                <property name="label" translatable="yes">High</property>
+                                <property name="label" translatable="yes">高</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1695,7 +1695,7 @@ This program is free to use and will always be.
                             </child>
                             <child>
                               <object class="GtkRadioButton" id="radio_button_similar_images_very_high">
-                                <property name="label" translatable="yes">Very High</property>
+                                <property name="label" translatable="yes">非常高</property>
                                 <property name="visible">True</property>
                                 <property name="can_focus">True</property>
                                 <property name="receives_default">False</property>
@@ -1765,7 +1765,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Similar Images</property>
+                    <property name="label" translatable="yes">类似图片</property>
                   </object>
                   <packing>
                     <property name="position">5</property>
@@ -1786,7 +1786,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Minimal file size(in bytes)</property>
+                            <property name="label" translatable="yes">最小的文件大小(单位：字节)</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -1823,7 +1823,7 @@ This program is free to use and will always be.
                         <property name="spacing">8</property>
                         <child>
                           <object class="GtkCheckButton" id="check_button_music_title">
-                            <property name="label" translatable="yes">Title</property>
+                            <property name="label" translatable="yes">标题</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1838,7 +1838,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkCheckButton" id="check_button_music_artist">
-                            <property name="label" translatable="yes">Artist</property>
+                            <property name="label" translatable="yes">歌手</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1853,7 +1853,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkCheckButton" id="check_button_music_album_title">
-                            <property name="label" translatable="yes">Album Title</property>
+                            <property name="label" translatable="yes">专辑名称</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1867,7 +1867,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkCheckButton" id="check_button_music_album_artist">
-                            <property name="label" translatable="yes">Album Artist</property>
+                            <property name="label" translatable="yes">专辑歌手</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1881,7 +1881,7 @@ This program is free to use and will always be.
                         </child>
                         <child>
                           <object class="GtkCheckButton" id="check_button_music_year">
-                            <property name="label" translatable="yes">Year</property>
+                            <property name="label" translatable="yes">年份</property>
                             <property name="visible">True</property>
                             <property name="can_focus">True</property>
                             <property name="receives_default">False</property>
@@ -1924,7 +1924,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Music Duplicates</property>
+                    <property name="label" translatable="yes">重复音乐</property>
                   </object>
                   <packing>
                     <property name="position">6</property>
@@ -1945,7 +1945,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Minimal file size(in bytes)</property>
+                            <property name="label" translatable="yes">最小的文件大小(单位：字节)</property>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -1999,7 +1999,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Zeroed Files</property>
+                    <property name="label" translatable="yes">零文件</property>
                   </object>
                   <packing>
                     <property name="position">7</property>
@@ -2023,7 +2023,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Invalid Symlinks</property>
+                    <property name="label" translatable="yes">无效链接</property>
                   </object>
                   <packing>
                     <property name="position">8</property>
@@ -2047,7 +2047,7 @@ This program is free to use and will always be.
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Broken Files</property>
+                    <property name="label" translatable="yes">破损文件</property>
                   </object>
                   <packing>
                     <property name="position">9</property>
@@ -2112,7 +2112,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Search</property>
+                                <property name="label" translatable="yes">搜索</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -2201,7 +2201,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Select</property>
+                                <property name="label" translatable="yes">选择</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -2250,7 +2250,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Delete</property>
+                                <property name="label" translatable="yes">删除</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -2299,7 +2299,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Save</property>
+                                <property name="label" translatable="yes">保存</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -2348,7 +2348,7 @@ This program is free to use and will always be.
                               <object class="GtkLabel">
                                 <property name="visible">True</property>
                                 <property name="can_focus">False</property>
-                                <property name="label" translatable="yes">Symlink</property>
+                                <property name="label" translatable="yes">链接</property>
                               </object>
                               <packing>
                                 <property name="expand">False</property>
@@ -2512,7 +2512,7 @@ This program is free to use and will always be.
   </object>
   <object class="GtkWindow" id="window_progress">
     <property name="can_focus">False</property>
-    <property name="title" translatable="yes">Czkawka Progress Window</property>
+    <property name="title" translatable="yes">进度</property>
     <child>
       <object class="GtkBox">
         <property name="visible">True</property>
@@ -2531,7 +2531,7 @@ This program is free to use and will always be.
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">All stages: </property>
+                <property name="label" translatable="yes">全部阶段： </property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
@@ -2555,7 +2555,7 @@ This program is free to use and will always be.
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="label" translatable="yes">Current stage:  </property>
+                <property name="label" translatable="yes">当前阶段： </property>
               </object>
               <packing>
                 <property name="left_attach">0</property>
@@ -2584,7 +2584,7 @@ This program is free to use and will always be.
           <object class="GtkLabel" id="label_stage">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="label" translatable="yes">Stage 1/2</property>
+            <property name="label" translatable="yes">阶段 1/2</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -2626,7 +2626,7 @@ This program is free to use and will always be.
                           <object class="GtkLabel">
                             <property name="visible">True</property>
                             <property name="can_focus">False</property>
-                            <property name="label" translatable="yes">Stop</property>
+                            <property name="label" translatable="yes">停止</property>
                           </object>
                           <packing>
                             <property name="expand">True</property>
